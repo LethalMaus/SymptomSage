@@ -38,8 +38,18 @@ To get started with SymptomSage, follow the instructions below.
   As Node.js officially states, "Production applications should only use Active LTS or Maintenance LTS releases". You can install Node.js using a version management tool (such as nvm or volta or any other of your choice) to switch between different Node.js versions.
 - Git for source control.
 - Watchman (for Linux or macOS users).
+- Android/iOS Device
+- (Optional) Android Studio
 
 ### Installation
+
+Please read the following links for further information if you run into trouble.
+
+https://docs.expo.dev/get-started/installation/
+
+https://docs.expo.dev/get-started/expo-go/
+
+https://docs.expo.dev/develop/development-builds/create-a-build/
 
 1. Clone the repository:
 
@@ -47,12 +57,22 @@ To get started with SymptomSage, follow the instructions below.
    git clone https://github.com/lethalmaus/SymptomSage.git
    ```
 
-2. Open the project in any IDE such as WebStorm.
-3. Start the app:
+2. Open the terminal, either powershell on windows or bash on mac or linux.
+3. Add expo
+
+   ```bash
+   yarn add expo
+   ```
+
+4. Install expo go on your Android/iOS device
+5. Start the app:
 
    ```bash
    npx expo start
    ```
+   
+6. Scan the QR code on your device
+7. If you are using a simulator, you will need to cerate a build and follow the prompt within the terminal
 
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue in the repository.
