@@ -1,5 +1,9 @@
 # SymptomSage
 
+<p align="center">
+  <img src="https://lethalmaus.github.io/SymptomSage/assets/icon.png"><br>
+</p>
+
 This is a demo app, created with expo, react native and written in TypeScript.
 
 It utilizes Flashlist, Async Storage and DateTimePicker.
@@ -21,6 +25,13 @@ Track your symptoms over time, like a wise old age would.
 Add a symptom like 'coughing' by date and severity and add a description such as 'chesty and dry'.
 
 Search for when you last had a specific symptom, to ensure no trends are building or to react accordingly when one is.
+
+<p align="center">
+  <img src="https://lethalmaus.github.io/SymptomSage/assets/Screenshot1.png" height="300">
+  <img src="https://lethalmaus.github.io/SymptomSage/assets/Screenshot2.png" height="300">
+  <img src="https://lethalmaus.github.io/SymptomSage/assets/Screenshot3.png" height="300">
+  <img src="https://lethalmaus.github.io/SymptomSage/assets/Screenshot4.png" height="300">
+</p>
 
 ## Features
 
